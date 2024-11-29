@@ -1,0 +1,12 @@
+body{
+  margin: 0px;
+  background-image: url('images/BluelockBackground.jpg');
+  background-size: 50%;
+  
+  color: white;
+  font-family: 'Courier New';
+}
+
+div{
+  float: left;
+}
