@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CCS 1 - Final Project</title>
+
+    <link rel="stylesheet" type="text/css" href="src/styles.css">
+    <link rel="icon" type="x/icon" href="src/images/bluelock_log.png">
+
+  </head>
+
+  <body>
+
+    <!-- Sidebar to center the main div -->
+    <div class="side-bar"></div>
+
+    <!-- Container for the Div -->
+    <div class="container">
+
+      <!-- Main Div -->
+      <div class="login-main">
+        <h1>FREE ROBUX</h1>
+        <hr class="login" />
+
+        <form class="login" name="myform" method="">
+
+          <!-- Subheading -->
+          <div class="subheading">
+            <h2>Personal Information</h2>
+          </div>
+          <hr class="login" />
+
+          <!-- Input Fields Caption Personal Information -->
+          <div class="login-form">
+            <p>
+              First Name: <br />
+              Last Name: <br />
+              Middle Name: <br /> <!-- Don't forget to make this optional -->
+              Email Address: <br />
+              Phone Number: <br />
+              Sex: <br />
+
+            </p>
+          </div>
+
+          <!-- Input Fields Personal Information -->
+          <div class="login-form">
+            <input class="login-text" name="firstName" type="textbox">
+            <br />
+
+            <input class="login-text" name="lastName" type="textbox">
+            <br />
+
+            <input class="login-text" name="middleName" type="textbox">
+            <br />
+
+            <input class="login-text" name="email" type="textbox">
+            <br />
+
+            <input class="login-text" name="phoneNumber" type="textbox">
+            <br />
+
+            <input name="sex" type="radio" value="male">
+            <span class="login-paragraph">Male</span>
+            <input name="sex" type="radio" value="female">
+            <span class="login-paragraph">Female</span>
+            <br />
+
+          </div>
+
+          <!-- Subheading -->
+          <div class="subheading">
+            <h2>Preferred Position</h2>
+          </div>
+          <hr class="login">
+
+          <!-- Input Fields Caption Preferred Position -->
+          <div class="login-form">
+            <p>
+              Forward <br />
+              Midfielder <br />
+              Defender <br />
+              Goalkeeper <br />
+            </p>
+          </div>
+
+          <!-- Input Fields Preferred Position -->
+          <div class="login-form">
+
+            <input type="checkbox" name="forward" value="forward"> <br />
+            <input type="checkbox" name="midfielder" value="midfielder"> <br />
+            <input type="checkbox" name="defender" value="defender"> <br />
+            <input type="checkbox" name="goalkeeper" value="goalkeeper"> <br />
+
+          </div>
+
+          <!-- Subheading -->
+          <div class="subheading">
+            <h2>Health Information</h2>
+          </div>
+          <hr class="login">
+
+          <!-- Input Fields Caption Preferred Position -->
+          <div class="login-form">
+            <p>
+              Medical Conditions if any: <br />
+            </p>
+          </div>
+
+          <!-- Input Fields Preferred Position -->
+          <div class="login-form">
+            <input type="textbox" name="medicalCondition" class="login-text">
+          </div>
+
+          <!-- Subheading -->
+          <div class="subheading">
+            <h2>Emergency Contact Details</h2>
+          </div>
+          <hr class="login">
+
+          <!-- Input Fields Caption Preferred Position -->
+          <div class="login-form">
+            <p>
+              Full name: <br />
+              Relationship: <br />
+              Contact Number: <br />
+            </p>
+          </div>
+
+          <!-- Input Fields Preferred Position -->
+          <div class="login-form">
+            <input type="textbox" name="emergencyName" class="login-text">
+            <br />
+
+            <input type="textbox" name="emergencyRelationship" class="login-text">
+            <br />
+
+            <input type="textbox" name="emergencyContact" class="login-text">
+            <br />
+
+          </div>
+
+          <!-- Subheading -->
+          <div class="subheading">
+            <h2>Log in Credentials</h2>
+          </div>
+          <hr class="login" />
+
+          <!-- Input Fields Caption Login Credentials -->
+          <div class="login-form">
+            <p>
+              Username: <br />
+              Password: <br />
+              Confirm Password: <br />
+            </p>
+          </div>
+
+          <!-- Input Fields Login Credentials -->
+          <div class="login-form">
+            <input class="login-text" name="username" type="textbox">
+            <br />
+
+            <input class="login-text" name="password" type="password">
+            <br />
+
+            <input class="login-text" name="confirmPassword" type="password">
+            <br />
+          </div>
+
+          <hr class="login" />
+
+          <div class="login-form submit">
+            &nbsp;
+          </div>
+          
+          <input type="submit" value="Lock in" class="submit">
+
+        </form>
+
+      </div>
+    </div>
+
+    <!-- Sidebar to center the main div -->
+    <div class="side-bar"></div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
