@@ -76,4 +76,37 @@ function verifySignUp(form){
   }
 }
 
+var attempts = 3;
+function login(form){
+  
+
+  form.submit.type = "button";
+
+  var username = form.username.value;
+  var password = form.password.value;
+
+  var loginUsername = form.loginUsername.value;
+  var loginPassword = form.loginPassword.value;
+  
+  if(username == loginUsername && password == loginPassword){
+    form.submit.type = "submit";
+  }
+  else if(attempts == 0){
+    document.getElementById('error').innerHTML = "You have no attempts left";
+    form.loginUsername.disabled = true;
+    form.loginPassword.disabled = true;
+    form.submit.disabled = true;
+  }
+  else{
+    attempts--;
+    document.getElementById('error').innerHTML = "Invalid username or password you have " + attempts + " attempts left";
+  }
+}
+
+function travel(form, destination){
+  document.getElementById(destination).type = 'submit';
+
+  form.action = destination+".php"; 
+}
+
 

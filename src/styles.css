@@ -126,3 +126,79 @@ div.sign-up-confirmation-main{
   border-radius: 50px;
   padding: 50px;
 }
+
+
+
+
+/* Sign up Success */
+
+h1.signup-success-main-heading, h2.signup-success-main-heading{
+  text-align: center;
+}
+
+div.signup-success-main{
+  width: 100%;
+}
+
+div.signup-success-side-bar{
+  width: 30%;
+  height: 1px;
+}
+
+div.signup-success-proceed-to-login-container{
+  width: 40%;
+}
+
+input.proceed-to-login{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Courier New';
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+
+  background-color: #01429c;
+  border: 1px solid #003058;
+  border-radius: 10px;
+}
+
+input.proceed-to-login:hover{
+  background-color: #003058;
+}
+
+input.proceed-to-login:active{
+  background-color: #001a30;
+}
+
+.center-text{
+  text-align: center;
+}
+
+
+
+
+/* Log in Page */
+
+div.login-sidebar{
+  height: 1px;
+  width: 20%;
+}
+
+div.login-mainbar{
+  width: 60%;
+}
+
+div.login-halfbar{
+  width: 50%;
+}
+
+
+
+/* Home Page */
+
+div.home-main{
+  width: 100%;
+  background-color: red;
+}
