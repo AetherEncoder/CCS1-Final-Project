@@ -23,7 +23,7 @@
         <h1>SIGN UP FOR BLUE LOCK</h1>
         <hr class="login" />
 
-        <form class="login" name="myform" method="POST" action="signupconfirmation.php">
+        <form class="login" name="myform" method="POST" action="signupConfirmation.php">
 
           <!-- Subheading -->
           <div class="subheading">
@@ -210,6 +210,7 @@
               Password: <br />
               Confirm Password: <br />
             </p>
+            <p id="error" class="error"></p>
           </div>
 
           <!-- Input Fields Login Credentials -->
@@ -230,7 +231,7 @@
             &nbsp;
           </div>
           
-          <input type="button" value="Lock in" name="submit" class="submit" onclick="verifySignUp(this.form);">
+          <input type="submit" value="Lock in" name="submit" class="submit" onclick="verifySignUp(this.form);">
 
         </form>
 

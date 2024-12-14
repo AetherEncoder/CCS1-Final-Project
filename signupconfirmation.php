@@ -69,7 +69,7 @@
         <h1>CONFIRM YOUR DETAILS</h1>
         <hr class="login" />
 
-        <form class="login" name="myform" method="POST" action="home.php">
+        <form class="login" name="myform" method="POST" action="signupSuccessful.php">
 
           <!-- Subheading -->
           <div class="subheading">
@@ -78,7 +78,7 @@
           <hr class="login" />
 
           <!-- Input Fields Caption Personal Information -->
-          <div class="login-caption">
+          <div class="signup-confirm">
             <p>
               First Name: <span class="bold"><?php echo $firstName; ?></span><br />
               Last Name: <span class="bold"><?php echo $lastName; ?></span><br />
@@ -94,7 +94,7 @@
           <hr class="login" />
 
           <!-- Input Fields Caption Contact Information -->
-           <div class="login-caption">
+           <div class="signup-confirm">
 
               <p>
                 Email Address: <span class="bold"><?php echo $email; ?></span><br />
@@ -110,7 +110,7 @@
           <hr class="login" />
 
           <!-- Input Fields Preferred Position -->
-          <div class="login-caption">
+          <div class="signup-confirm">
             <p class="bold">
               <?php
                 if($forward == $forwardTitle){
@@ -136,7 +136,7 @@
           <hr class="login" />
 
           <!-- Input Fields Caption Preferred Position -->
-          <div class="login-caption">
+          <div class="signup-confirm">
             <p>
               Medical Conditions if any: <span class="bold"><?php echo $medicalCondition; ?></span><br />
             </p>
@@ -149,7 +149,7 @@
           <hr class="login" />
 
           <!-- Input Fields Caption Preferred Position -->
-          <div class="login-caption">
+          <div class="signup-confirm">
             <p>
               Full Name: <span class="bold"><?php echo $emergencyName; ?></span><br />
               Relationship: <span class="bold"><?php echo $emergencyRelationship; ?></span><br />
@@ -164,7 +164,7 @@
           <hr class="login" />
 
           <!-- Input Fields Caption Security Questions -->
-          <div class="login-caption">
+          <div class="signup-confirm">
             <p>
               What is your favorite color? <span class="bold"><?php echo $color; ?></span><br />
               What is the name of your first pet? <span class="bold"><?php echo $pet; ?></span><br />
@@ -179,11 +179,10 @@
           <hr class="login" />
 
           <!-- Input Fields Caption Login Credentials -->
-          <div class="login-caption">
+          <div class="signup-confirm">
             <p>
               Username: <span class="bold"><?php echo $username; ?></span><br />
               Password: <span class="bold"><?php echo $password; ?></span><br />
-              Confirm Password: <span class="bold"><?php echo $confirmPassword; ?></span><br />
             </p>
           </div>
 
@@ -193,8 +192,6 @@
             <a href="signup.php" class="submit">Go Back</a>
             <input type="submit" value="Confirm" class="submit">
           </div>
-          
-
         </form>
 
       </div>

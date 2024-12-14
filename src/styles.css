@@ -104,8 +104,13 @@ div.submit{
   width: 80%;
 }
 
+p.error{
+  color: red;
+}
 
-
+div.signup-confirm{
+  width: 100%;
+}
 
 
 
