@@ -200,5 +200,61 @@ div.login-halfbar{
 
 div.home-main{
   width: 100%;
+}
+
+div.heading{
+  width: 100%;
+}
+
+div.main-heading{
+  width: 15%;
+}
+
+div.side-heading{
+  width: 85%;
+  height: 1px;
+}
+
+div.logout-side{
+  height: 1px;
+  width: 30%;
+}
+
+div.logout-main{
+  width: 40%;
+}
+
+input.logout{
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+div.home-body{
+  width: 100%;
+  height: 200px;
+}
+
+div.home-body-banner{
+  width: 20%;
   background-color: red;
+  height: 360px;
+
+  margin-top: 10%;
+  margin-left: 6.66%;
+  margin-right: 6.66%;
+}
+
+input.student-banner{
+  width: 100%;
+  height: 100%;
+  border: none;
+  
+  background-position: center;
+  background-image: url('images/venenosoFace.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }

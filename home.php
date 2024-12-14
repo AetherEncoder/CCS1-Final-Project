@@ -86,7 +86,41 @@
         <input type="hidden" name="password" value="<?php echo $password; ?>">
         <input type="hidden" name="confirmPassword" value="<?php echo $confirmPassword; ?>">
 
-        <input type="button" id="login" value="Log Out" onclick="travel(this.form, 'login')">
+        <!-- Heading -->
+        <div class="heading">
+          <div class="side-heading"></div>
+          <div class="main-heading">
+            <!-- Display Greetings -->
+            <h1 >Welcome <?php echo $firstName; ?>!</h1>
+
+            <!-- Go Back to Log in page -->
+            <div class="logout-side"></div>
+            <div class="logout-main">
+              <input type="button" class="logout" id="login" value="Log out" onclick="travel(this.form, 'login')">
+            </div>
+            <div class="logout-side"></div>
+            </div>
+        </div>
+
+        <!-- Body Div -->
+        <div class="home-body">
+          <!-- Banner For Sonjaco -->
+          <div class="home-body-banner">
+            <input type="button" class="student-banner" id="sonjaco" value="" onclick="travel(this.form, 'sonjaco');">
+          </div>
+
+          <!-- Banner For Venenoso -->
+          <div class="home-body-banner">
+            <input type="button" class="student-banner" id="venenoso" value="" onclick="travel(this.form, 'venenoso');">
+          </div>
+
+          <!-- Banner For Ong -->
+          <div class="home-body-banner">
+            <input type="button" class="student-banner" id="ong" value="" onclick="travel(this.form, 'ong');">
+          </div>
+        </div>
+
+        
       </form>
     </div>
 
