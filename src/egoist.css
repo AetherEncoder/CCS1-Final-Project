@@ -1,0 +1,451 @@
+/* General Styling */
+
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0px;
+}
+
+hr{
+    border: none;
+}
+
+div{
+    float: left;
+}
+
+div.banner{
+    height: 160px;
+    width: 100%;
+    background-color: white; 
+}
+
+div.banner-container{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 160px;
+    background-image: url('images/egoistTheme/CCS_Banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* div.fix{
+    position: fixed;
+    width: 100%;
+} */
+
+div.navigation-bar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(1, 66, 156);
+    /* border-bottom: 2px solid white; */
+}
+
+div.button-navigation{
+    width: 16.66667%;
+    height: 50px;
+}
+
+button.button-navigation{
+    height: 50px;
+    border-radius: 0px;
+    border: 0px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+button.current, button.not-current:hover{
+    background-color: rgb(0, 48, 88);
+}
+
+button.not-current:active, button.current:active{
+    background-color: rgb(0, 30, 54);
+}
+
+
+button.not-current{
+    background-color: rgb(1, 66, 156);
+}
+
+div.content{
+    width: 100%;
+    background-color: #01429c;
+}
+
+div.back-to-top{
+    width: 100%;
+    background-color: #01429c;
+    text-align: center;
+}
+
+hr.back-to-top{
+    width: 30%;
+    height: 1px;
+    background-color: white;
+}
+
+a.back-to-top{
+    color: white;
+    text-align: center;
+}
+
+a.anchor{
+    float: left;
+    width: 100%;
+}
+
+div.copyright{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+p.copyright{
+    color: #003058;
+    font-weight: bold;
+}
+
+hr.copyright{
+    width: 99%;
+    height: 1px;
+    background-color: #003058;
+}
+
+ul.none{
+    list-style-type: none;
+}
+
+ul.disc{
+    list-style-type: disc;
+}
+
+ul.circle{
+    list-style-type: circle;
+}
+
+ul.square{
+    list-style-type: square;
+}
+
+ol.decimal{
+    list-style-type: decimal;
+}
+
+ol.lower-alpha{
+    list-style-type: lower-alpha;
+}
+
+ol.upper-alpha{
+    list-style-type: upper-alpha;
+}
+
+ol.lower-roman{
+    list-style-type: lower-roman;
+}
+
+ol.upper-roman{
+    list-style-type: upper-roman;
+}
+
+ol.none{
+    list-style-type: none;
+}
+
+div.buttons{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button.buttons{
+    margin: 1px;
+    width: 33%;
+    float: left;
+    height: 50px;
+    border-radius: 0%;
+    border: solid 1px black;
+    font-size: 20px;
+    background-color: white; 
+    color: #01429c;
+}
+
+button.ccs:hover{
+    background-color: #004992;
+    color: white;
+}
+
+button.silliman:hover{
+    background-color: rgb(146, 12, 18);
+    color: white;
+}
+
+button.beach:hover{
+    background-color: #4CC9FE;
+    color: #F5F4B3;
+}
+
+button.space:hover{
+    background-color: rgb(30, 62, 98);
+    color: rgb(255, 101, 0)
+}
+
+button.egoist:hover{
+    background-color: #01429c; 
+    color: white;
+}
+
+button.manga:hover{
+    background-color: white;
+    color: black;
+}
+
+button.ccs:active{
+    background-color: #004992;
+    color: white;
+}
+
+button.silliman:active{
+    background-color: white;
+    color: rgb(146, 12, 18);
+}
+
+button.beach:active{
+    background-color: #F5F4B3;
+    color: #4CC9FE;
+}
+
+button.space:active{
+    background-color: rgb(255, 101, 0);
+    color: rgb(30, 62, 98);
+}
+
+button.egoist:active{
+    color: #01429c;
+    background-color: white;
+}
+
+button.manga:active{
+    background-color: black;
+    color: white;
+}
+
+
+/* End of Genenral Styling */
+
+
+
+/* Home Page Styling */
+
+div.background-image{
+    width: 100%;
+    height: 400px;
+    background-image: url('images/egoistTheme/Cover_Image.png');
+    background-size: cover;
+}
+
+div.left-sidebar{
+    width: 10%;
+    height: 1500px;
+    float:left;
+    background-image: url('images/egoistTheme/ViaVeritasVita.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.right-sidebar{
+    width: 10%;
+    height: 1500px;
+    float: left;
+    background-image: url('images/egoistTheme/ViaVeritasVita.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.center-bar{
+    width: 80%;
+    
+}
+
+div.ccs-logo-home{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+img.ccs-logo-home{
+    width: 100%;
+}
+
+a.click-here{
+    color: #4d8ee8;
+}
+
+h1.home-heading{
+    font-size: 36px;
+    text-align: center;
+}
+
+p.home-paragraph{
+    text-align: center;
+}
+
+hr.home-hr{
+    background-color: white;
+    width: 90%;
+    height: 1px;
+}
+
+div.news-and-announcements{
+    width: 82%;
+    height: 1%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+div.myface-div{
+    width: 100%;
+    background-color: white;
+}
+
+div.news-caption{
+    width: 33.3%;
+    text-align: center;
+}
+
+div.news{
+    width: 33%;
+}
+
+img.news-image{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* End of Home Page Styling */
+
+
+img.myface{
+    float: left;
+    width: 100%;
+}
+
+div.myface-container{
+    width: 100%;
+}
+
+div.myface{
+    width: 100%;
+}
+
+div.column1{
+    width: 15%;
+}
+
+div.column2{
+    width: 35%;
+}
+
+div.column-half{
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.column-quarter{
+    width:25%;
+}
+
+div.column-third{
+    width: 33%;
+}
+
+a.link{
+    color: rgb(77, 142, 232);
+    text-decoration: none;
+}
+
+span.bold{
+    font-weight: bold;
+}
+
+div.main-content{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    width: 90%;
+}
+
+h1.main-heading{
+    font-size: 36px;
+}
+
+div.main-nav-bar{
+    width: 100%;
+}
+
+a.main-nav-link{
+    color: rgb(77, 142, 232);
+}
+
+div.nav-space{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+hr.main-hr{
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    float: left;
+}
+
+h2.main-subheading{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+
+p.main-paragraph{
+    float: left;
+    text-align: justify;
+    font-size: 20px;
+    width: 100%;
+}
+
+h3.main-subheading{
+    font-size: 24px;
+    text-decoration: underline;
+    float: left;
+    font-weight: normal;
+    width: 100%;
+}
+
+form.login{
+    width: 10%;
+
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+input.go-back-home{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border:none;
+    width: 100%;
+    height: 30px;
+    text-decoration: underline;
+}

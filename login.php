@@ -96,35 +96,40 @@
             <br />
             <br />
 
+            <!-- Update the login form structure -->
             <div class="login-sidebar"></div>
-
             <div class="login-mainbar">
-              <!-- Login Input Caption -->
-              <div class="login-halfbar">
-                <p>
-                  Username: <br />
-                  Password: <br />
-                </p>
+              <div class="login-caption">
+                <p>Username: <br /></p>
               </div>
-  
-              <!-- Login Input -->
-              <div class="login-halfbar">
-                <input type="text" name="loginUsername" value="" required>
-                <input type="password" name="loginPassword" value="" required>
-
-                
+              <div class="login-input">
+                <input class="login-text" type="text" name="loginUsername" value="" required>
+                <br />
               </div>
-              
             </div>
             <div class="login-sidebar"></div>
+            <div class="login-fullbar"></div>
+            <div class="login-sidebar"></div>
+            <div class="login-mainbar">
+              <div class="login-caption">
+                <p>Password: <br /></p>
+              </div>
+              <div class="login-input">
+                <input class="login-text" type="password" name="loginPassword" value="" required>
+                <br />
+              </div>
+            </div>
+            <div class="login-sidebar"></div>
+
             <hr class="login" />
 
             <!-- Proceed to Log In -->
             <p id="error" class="error center-text"><br /></p>
-            <div class="signup-success-side-bar"></div>
-              <div class="signup-success-proceed-to-login-container">
-                <input class="proceed-to-login" type="button" value="LOG IN" name="submit" onclick="login(this.form);">
-              </div>
+
+            <div class="login-form-submit">
+              <input class="proceed-to-login submit" type="button" value="LOG IN" name="submit" onclick="login(this.form);">
+            </div>
+
             <div class="signup-sucess-side-bar"></div>
 
           </div>

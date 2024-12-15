@@ -40,37 +40,72 @@
           </div>
           <hr class="login" />
 
-          <!-- Input Fields Caption Personal Information -->
-          <div class="login-caption">
-            <p>
-              First Name: <br />
-              Last Name: <br />
-              Middle Name: <br /> <!-- Don't forget to make this optional -->
-              Birth Date: <br />
-              Sex: <br />
-              </p>
+          <div class="login-row">
+            <div class="login-caption">
+              <p>
+                First Name: <br />
+              </p>  
+            </div>
+
+            <div class="login-input">
+              <input class="login-text" name="firstName" type="textbox" required>
+              <br />
+            </div>
           </div>
 
-          <!-- Input Fields Personal Information -->
-          <div class="login-input">
-            <input class="login-text" name="firstName" type="textbox" required>
-            <br />
+          <div class="login-row">
+            <div class="login-caption">
+              <p>
+                Last Name: <br />
+              </p>  
+            </div>
 
-            <input class="login-text" name="lastName" type="textbox" required>
-            <br />
+            <div class="login-input">
+              <input class="login-text" name="lastName" type="textbox" required>
+              <br />
+            </div>
+          </div>
 
-            <input class="login-text" name="middleName" type="textbox">
-            <br />
+          <div class="login-row">
+            <div class="login-caption">
+              <p>
+                Middle Name: <br />
+              </p>  
+            </div>
 
-            <input class="login-text" name="birthDate" type="date" required>
-            <br />
+            <div class="login-input">
+              <input class="login-text" name="middleName" type="textbox">
+              <br />
+            </div>
+          </div>
 
-            <input name="sex" type="radio" value="Male" required>
-            <span class="login-paragraph">Male</span>
-            <input name="sex" type="radio" value="Female" reqruied>
-            <span class="login-paragraph">Female</span>
-            <br />
+          <div class="login-row">
+            <div class="login-caption">
+              <p>
+                Birth Date: <br />
+              </p>  
+            </div>
 
+            <div class="login-input">
+              <input class="login-text" name="birthDate" type="date" required>
+              <br />
+            </div>
+          </div>
+
+          <div class="login-row">
+            <div class="login-caption">
+              <p>
+            Sex   : <br />
+              </p>  
+            </div>
+
+            <div class="login-input">
+              <input name="sex" type="radio" value="Male" required>
+              <span class="login-paragraph">Male</span>
+              <input name="sex" type="radio" value="Female" reqruied>
+              <span class="login-paragraph">Female</span>
+              <br />
+            </div>
           </div>
 
           <div class="subheading">
@@ -78,26 +113,25 @@
           </div>
           <hr class="login" />
 
-          <!-- Input Fields Caption Contact Information -->
-           <div class="login-caption">
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Email Address: <br /></p>
+            </div>
+            <div class="login-input">
+              <input class="login-text" name="email" type="textbox" required>
+              <br />
+            </div>
+          </div>
 
-              <p>
-                Email Address: <br />
-                Phone Number: <br />
-              </p>
-
-           </div>
-
-           <!-- Input Fields Contact Information -->
-           <div class="login-input">
-
-            <input class="login-text" name="email" type="textbox" required>
-            <br />
-
-            <input class="login-text" name="phoneNumber" type="textbox" required>
-            <br />
-
-           </div>
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Phone Number: <br /></p>
+            </div>
+            <div class="login-input">
+              <input class="login-text" name="phoneNumber" type="textbox" required>
+              <br />
+            </div>
+          </div>
 
           <!-- Subheading -->
           <div class="subheading">
@@ -105,32 +139,48 @@
           </div>
           <hr class="login" />
 
-          <!-- Input Fields Caption Preferred Position -->
-          <div class="login-caption">
-            <p>
-              Forward <br />
-              Midfielder <br />
-              Defender <br />
-              Goalkeeper <br />
-            </p>
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Forward<br /></p>
+            </div>
+            <div class="login-input">
+              <input id="forward" type="hidden" name="forward" value="">
+              <input id="forward" type="checkbox" name="forward" value="Forward">
+              <br />
+            </div>
           </div>
 
-          <!-- Input Fields Preferred Position -->
-          <div class="login-input">
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Midfielder<br /></p>
+            </div>
+            <div class="login-input">
+              <input id="midfielder" type="hidden" name="midfielder" value="">
+              <input id="midfielder" type="checkbox" name="midfielder" value="Midfielder">
+              <br />
+            </div>
+          </div>
 
-            <!-- Use type hidden so when user not check it it no error -->
-            <input id="forward" type="hidden" name="forward" value="">
-            <input id="forward" type="checkbox" name="forward" value="Forward"> <br />
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Defender<br /></p>
+            </div>
+            <div class="login-input">
+              <input id="defender" type="hidden" name="defender" value="">
+              <input id="defender" type="checkbox" name="defender" value="Defender">
+              <br />
+            </div>
+          </div>
 
-            <input id="midfielder" type="hidden" name="midfielder" value="">
-            <input id="midfielder" type="checkbox" name="midfielder" value="Midfielder"> <br />
-
-            <input id="defender" type="hidden" name="defender" value="">
-            <input id="defender" type="checkbox" name="defender" value="Defender"> <br />
-
-            <input id="goalkeeper" type="hidden" name="goalkeeper" value="">
-            <input id="goalkeeper" type="checkbox" name="goalkeeper" value="Goalkeeper"> <br />
-
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Goalkeeper<br /></p>
+            </div>
+            <div class="login-input">
+              <input id="goalkeeper" type="hidden" name="goalkeeper" value="">
+              <input id="goalkeeper" type="checkbox" name="goalkeeper" value="Goalkeeper">
+              <br />
+            </div>
           </div>
 
           <!-- Subheading -->
@@ -139,16 +189,14 @@
           </div>
           <hr class="login" />
 
-          <!-- Input Fields Caption Preferred Position -->
-          <div class="login-caption">
-            <p>
-              Medical Conditions if any: <br />
-            </p>
-          </div>
-
-          <!-- Input Fields Preferred Position -->
-          <div class="login-input">
-            <input type="textbox" name="medicalCondition" class="login-text">
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Medical Conditions if any: <br /></p>
+            </div>
+            <div class="login-input">
+              <input type="textbox" name="medicalCondition" class="login-text">
+              <br />
+            </div>
           </div>
 
           <!-- Subheading -->
@@ -157,53 +205,70 @@
           </div>
           <hr class="login" />
 
-          <!-- Input Fields Caption Preferred Position -->
-          <div class="login-caption">
-            <p>
-              Full Name: <br />
-              Relationship: <br />
-              Contact Number: <br />
-            </p>
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Full Name: <br /></p>
+            </div>
+            <div class="login-input">
+              <input type="textbox" name="emergencyName" class="login-text" required>
+              <br />
+            </div>
           </div>
 
-          <!-- Input Fields Preferred Position -->
-          <div class="login-input">
-            <input type="textbox" name="emergencyName" class="login-text" required>
-            <br />
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Relationship: <br /></p>
+            </div>
+            <div class="login-input">
+              <input type="textbox" name="emergencyRelationship" class="login-text" required>
+              <br />
+            </div>
+          </div>
 
-            <input type="textbox" name="emergencyRelationship" class="login-text" required>
-            <br />
-
-            <input type="textbox" name="emergencyContact" class="login-text" required>
-            <br />
-
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Contact Number: <br /></p>
+            </div>
+            <div class="login-input">
+              <input type="textbox" name="emergencyContact" class="login-text" required>
+              <br />
+            </div>
           </div>
 
           <!-- Subheading -->
-          <div class="subhead">
+          <div class="subheading">
             <h2>Security Questions</h2>
           </div>
           <hr class="login" />
 
-          <!-- Input Fields Caption Security Questions -->
-          <div class="login-caption">
-            <p>
-              What is your favorite color? <br />
-              What is the name of your first pet? <br />
-              What is your course?  <br />
-            </p>
+          <div class="login-row">
+            <div class="login-caption">
+              <p>What is your favorite color? <br /></p>
+            </div>
+            <div class="login-input">
+              <input class="login-text" name="color" type="textbox" required>
+              <br />
+            </div>
           </div>
 
-          <!-- Input Fields Security Questions -->
-          <div class="login-input">
-            <input class="login-text" name="color" type="textbox" required>
-            <br />
+          <div class="login-row">
+            <div class="login-caption">
+              <p>What is the name of your first pet? <br /></p>
+            </div>
+            <div class="login-input">
+              <input class="login-text" name="pet" type="textbox" required>
+              <br />
+            </div>
+          </div>
 
-            <input class="login-text" name="pet" type="textbox" required>
-            <br />
-
-            <input class="login-text" name="course" type="textbox" required>
-            <br />
+          <div class="login-row">
+            <div class="login-caption">
+              <p>What is your course? <br /></p>
+            </div>
+            <div class="login-input">
+              <input class="login-text" name="course" type="textbox" required>
+              <br />
+            </div>
           </div>
 
           <!-- Subheading -->
@@ -212,26 +277,36 @@
           </div>
           <hr class="login" />
 
-          <!-- Input Fields Caption Login Credentials -->
-          <div class="login-caption">
-            <p>
-              Username: <br />
-              Password: <br />
-              Confirm Password: <br />
-            </p>
-            <p id="error" class="error"></p>
+          <!-- Row of input -->
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Username: <br /></p>
+            </div>
+            <div class="login-input">
+              <input class="login-text" name="username" type="textbox" required>
+              <br />
+            </div>
           </div>
 
-          <!-- Input Fields Login Credentials -->
-          <div class="login-input">
-            <input class="login-text" name="username" type="textbox" required>
-            <br />
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Password: <br /></p>
+            </div>
+            <div class="login-input">
+              <input class="login-text" name="password" type="password" required>
+              <br />
+            </div>
+          </div>
 
-            <input class="login-text" name="password" type="password" required>
-            <br />
-
-            <input class="login-text" name="confirmPassword" type="password" required>
-            <br />
+          <div class="login-row">
+            <div class="login-caption">
+              <p>Confirm Password: <br /></p>
+              <p id="error" class="error"></p>
+            </div>
+            <div class="login-input">
+              <input class="login-text" name="confirmPassword" type="password" required>
+              <br />
+            </div>
           </div>
 
           <hr class="login" />
