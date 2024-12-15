@@ -106,17 +106,17 @@
         <div class="home-body">
           <!-- Banner For Sonjaco -->
           <div class="home-body-banner">
-            <input type="button" class="student-banner" id="sonjaco" value="" onclick="travel(this.form, 'sonjaco');">
+            <input type="button" class="student-banner student-banner-sonjaco" id="sonjaco" value="" onclick="travel(this.form, 'sonjaco');">
           </div>
 
           <!-- Banner For Venenoso -->
           <div class="home-body-banner">
-            <input type="button" class="student-banner" id="venenoso" value="" onclick="travel(this.form, 'venenoso');">
+            <input type="button" class="student-banner student-banner-venenoso" id="venenoso" value="" onclick="travel(this.form, 'venenoso');">
           </div>
 
           <!-- Banner For Ong -->
           <div class="home-body-banner">
-            <input type="button" class="student-banner" id="ong" value="" onclick="travel(this.form, 'ong');">
+            <input type="button" class="student-banner student-banner-ong" id="ong" value="" onclick="travel(this.form, 'ong');">
           </div>
         </div>
 

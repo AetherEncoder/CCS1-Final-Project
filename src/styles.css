@@ -288,7 +288,20 @@ input.student-banner{
   border: none;
   
   background-position: center;
-  background-image: url('images/venenosoFace.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+input.student-banner-venenoso{
+  background-image: url('images/venenosoFace.png');
+}
+
+input.student-banner-sonjaco{
+  background-image: url('images/sonjacoFace.png');
+}
+
+input.student-banner-ong{
+  background-image: url('images/ongFace.png');
+}
+
+
