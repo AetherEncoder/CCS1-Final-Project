@@ -212,7 +212,7 @@
           <hr class="login" />
 
           <div class="login-form submit">
-            <a href="index.php" class="submit">Go Back</a>
+            <a href="signup.php" class="submit">Go Back</a>
             <input type="submit" value="Confirm" class="submit">
           </div>
         </form>

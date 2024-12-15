@@ -20,7 +20,16 @@
 
       <!-- Main Div -->
       <div class="login-main">
-        <h1>SIGN UP FOR BLUE LOCK</h1>
+        <div class="logo-sidebar"></div>
+        <div class="logo-container">
+          <img src="src/images/bluelock_logo.png" class="bluelock-logo" />
+        </div>
+        <div class="logo-sidebar"></div>
+
+        <div class="signup-main-heading">
+          <h1 class="center-text">SIGN UP FOR BLUE LOCK</h1>
+        </div>
+
         <hr class="login" />
 
         <form class="login" name="myform" method="POST" action="signupConfirmation.php">
