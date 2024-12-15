@@ -87,11 +87,11 @@
             <input type="hidden" name="confirmPassword" value="<?php echo $confirmPassword; ?>">
 
             <!-- Heading -->
-            <div class="heading">
+            <div class="heading home-body-heading">
                 <div class="side-heading"></div>
                 <div class="main-heading">
                     <!-- Display Greetings -->
-                    <h1>Welcome <?php echo $firstName; ?>!</h1>
+                    <h3 class="main-heading">Welcome <?php echo $firstName; ?>!</h3>
 
                     <!-- Logout button -->
                     <div class="logout-side"></div>
@@ -103,22 +103,26 @@
             </div>
 
             <!-- Body Content -->
-            <div class="home-body">
-                <!-- Banner For Sonjaco -->
-                <div class="home-body-banner">
-                    <input type="button" class="student-banner student-banner-sonjaco" id="sonjaco" value="" onclick="travel(this.form, 'sonjaco');">
+             <div class="student-containers">
+              <!-- Banner for Sonjaco -->
+               <div class="student-container">
+                  <img src="src/images/sonjacoFace.png" alt="Sonjaco Face" class="student-face">
+                  <input type="button" class="student-face" id="sonjaco" value="" onclick="travel(this.form, 'sonjaco');">
                 </div>
 
-                <!-- Banner For Venenoso -->
-                <div class="home-body-banner">
-                    <input type="button" class="student-banner student-banner-venenoso" id="venenoso" value="" onclick="travel(this.form, 'venenoso');">
+              <!-- Banner for Veneoso -->
+                <div class="student-container student-banner-venenoso">
+                  <img src="src/images/venenosoFace.png" alt="Venenoso Face" class="student-face"> 
+                  <input type="button" class="student-face" id="venenoso" value="" onclick="travel(this.form, 'venenoso');">
                 </div>
 
-                <!-- Banner For Ong -->
-                <div class="home-body-banner">
-                    <input type="button" class="student-banner student-banner-ong" id="ong" value="" onclick="travel(this.form, 'ong');">
+              <!-- Banner for Ong -->
+                <div class="student-container student-banner-ong">
+                  <img src="src/images/ongFace.png" alt="Ong Face" class="student-face">
+                  <input type="button" class="student-face" id="ong" value="" onclick="travel(this.form, 'ong');">
                 </div>
-            </div>
+             </div>
+
         </form>
     </div>
 

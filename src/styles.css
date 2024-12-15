@@ -245,11 +245,20 @@ div.heading{
 }
 
 div.main-heading{
-  width: 15%;
+  width: 19%;
+  background-color: white;
+  color:rgb(0, 48, 88);
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 1%;
+}
+
+h3.main-heading{
+  margin:15px 0px 5px 0px;
 }
 
 div.side-heading{
-  width: 85%;
+  width: 80%;
   height: 1px;
 }
 
@@ -264,48 +273,12 @@ div.logout-main{
 
 input.logout{
   width: 100%;
-  border: none;
   font-size: 16px;
-  background: none;
-  color: white;
-  text-decoration: underline;
-}
-
-div.home-body{
-  width: 100%;
-  height: 200px;
-}
-
-div.home-body-banner{
-  width: 20%;
-  background-color: red;
-  height: 360px;
-
-  margin-top: 10%;
-  margin-left: 6.66%;
-  margin-right: 6.66%;
-}
-
-input.student-banner{
-  width: 100%;
-  height: 100%;
   border: none;
-  
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-input.student-banner-venenoso{
-  background-image: url('images/venenosoFace.png');
-}
-
-input.student-banner-sonjaco{
-  background-image: url('images/sonjacoFace.png');
-}
-
-input.student-banner-ong{
-  background-image: url('images/ongFace.png');
+  background: none ;
+  color: rgb(0, 48, 88);
+  text-decoration: underline;
+  margin-bottom: 15px;
 }
 
 div.copyright{
@@ -334,3 +307,50 @@ marquee.disclaimer{
   color: white;
   font-size: 30px;
 }
+
+div.student-containers{
+  width: 100%;
+}
+
+div.student-container{
+  width: 30%;
+  margin: 0px 1.66% 0px 1.66%;
+  background-color: rgb(0, 57, 136);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative; /* Ensure the container is positioned relative */
+}
+
+img.student-face{
+  width: 100%;
+  display: block; /* Remove any spacing below the image */
+}
+
+input.student-face{
+  width: 100%;
+  height: 100%;
+  border: none;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+img.student-face{
+  width: 100%;
+}
+
+div.home-body-heading{
+  margin-bottom: 200px;
+}
+
+div.short{
+  height: 700px;
+  background-size: cover;
+  background-image: url('images/shortsidebanner.png');
+}
+

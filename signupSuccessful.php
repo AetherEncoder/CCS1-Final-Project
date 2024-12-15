@@ -58,7 +58,7 @@
     </div>
 
     <!-- Sidebar to center the main div -->
-    <div class="side-bar"></div>
+    <div class="side-bar short"></div>
 
     <!-- Container for the Div -->
     <div class="container">
@@ -107,7 +107,7 @@
     </div>
 
     <!-- Sidebar to center the main div -->
-    <div class="side-bar"></div>
+    <div class="side-bar short"></div>
 
     <!-- Marquee Disclaimer -->
     <div class="disclaimer">
