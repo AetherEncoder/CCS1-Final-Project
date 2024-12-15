@@ -10,6 +10,10 @@ body{
     margin: 0px;
 }
 
+div.main-heading-div{
+    width: 100%;
+}
+
 hr{
     border: none;
 }

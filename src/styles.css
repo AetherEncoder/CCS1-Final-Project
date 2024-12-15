@@ -3,9 +3,13 @@ body{
   background-size: 50%;
   color: white;
   font-family: sans-serif;
-  background-color: rgb(0, 27, 61);
+  background-color: rgb(0, 57, 136);
 }
 
+img.main-banner{
+  float: left;
+  width: 100%;
+}
 
 
 div{
@@ -13,22 +17,27 @@ div{
 }
 
 div.side-bar{
-  height: 1px;
-  width: 30%;
+  height: 1500px;
+  width: 10%;
+  background-image: url('images/sidebanner.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 div.container{
   width: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 div.login-main{
   margin-top: 100px;
   margin-bottom: 100px;
-  width: 100%;
   background-color: rgb(1, 66, 156);
   color: white;
   border-radius: 50px;
   padding: 50px;
+  border: 2px solid white;
 
   padding-top: 20px;
 }
@@ -95,21 +104,23 @@ input.submit, a.submit{
   font-weight: bold;
   font-size: 20px;
   font-family: sans-serif;
-  color: white;
+  color: rgb(0, 48, 88);
   padding: 10px;
   text-decoration: none;
 
-  background-color: #01429c;
+  background-color: #ffffff;
   border: 1px solid #003058;
   border-radius: 10px;
 }
 
 input.submit:hover, a.submit:hover{
   background-color: #003058;
+  color: white;
 }
 
 input.submit:active, a.submit:active{
   background-color: #001a30;
+  color: white;
 }
 
 div.submit{
@@ -124,9 +135,6 @@ div.signup-confirm{
   width: 100%;
 }
 
-
-
-
 /* Sign Up Confirmation */
 
 div.sign-up-confirmation-main{
@@ -138,9 +146,6 @@ div.sign-up-confirmation-main{
   border-radius: 50px;
   padding: 50px;
 }
-
-
-
 
 /* Sign up Success */
 
@@ -167,21 +172,23 @@ input.proceed-to-login{
   font-weight: bold;
   font-size: 20px;
   font-family: sans-serif;
-  color: white;
+  color: #001a30;
   padding: 10px;
   text-decoration: none;
 
-  background-color: #01429c;
+  background-color: white;
   border: 1px solid #003058;
   border-radius: 10px;
 }
 
 input.proceed-to-login:hover{
   background-color: #003058;
+  color: white;
 }
 
 input.proceed-to-login:active{
   background-color: #001a30;
+  color: white;
 }
 
 .center-text{
@@ -205,7 +212,6 @@ div.signup-main-heading{
   width: 100%;
 }
 
-
 /* Log in Page */
 
 div.login-sidebar{
@@ -228,12 +234,10 @@ div.login-form-submit{
   margin-right: 35%;
 }
 
-
-
 /* Home Page */
 
 div.home-main{
-  width: 100%;
+  width: 80%;
 }
 
 div.heading{
@@ -304,4 +308,29 @@ input.student-banner-ong{
   background-image: url('images/ongFace.png');
 }
 
+div.copyright{
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
 
+p.copyright{
+  color: #003058;
+  font-weight: bold;
+}
+
+hr.copyright{
+  width: 99%;
+  height: 1px;
+  background-color: #003058;
+}
+
+div.disclaimer{
+  width: 100%;
+  height: 50px;
+}
+
+marquee.disclaimer{
+  color: white;
+  font-size: 30px;
+}

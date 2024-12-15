@@ -93,12 +93,12 @@
             </div>
             <div class="column2">
                 <p class="main-paragraph">
-                    : Charlez  Yuan Venenoso<br /><br />
-                    : 0997-986-9084<br /><br />
+                    : Darius Judd C. Sonjaco<br /><br />
+                    : 0962-493-0503<br /><br />
                     : Male<br /><br />
                     : Single<br /><br />
                     : Filipino<br /><br />
-                    : #210 San Antonio St. Poblacion Sibulan<br /><br />
+                    : Bong-ao Valencia<br /><br />
                 </p>
             </div>
             <div class="column1">
@@ -112,9 +112,9 @@
             </div>
             <div class="column2">
                 <p class="main-paragraph">
-                    : Jonathan Venenoso<br /><br />
-                    : <a class="link" href="mailto:charlezcvenenoso@su.edu.ph" target="_blank">charlezcvenenoso@su.edu.ph</a> <br /><br />
-                    : January 27, 2006<br /><br />
+                    : Saludario Sonjaco<br /><br />
+                    : <a class="link" href="mailto:dariuscsonjaco@su.edu.ph" target="_blank">dariuscsonjaco@su.edu.ph</a> <br /><br />
+                    : May 31, 2005<br /><br />
                     : Roman Catholic<br>
                     : English, Filipino, Cebuano<br /><br />
                 </p>
@@ -124,7 +124,7 @@
             <hr class="main-hr" />
             <div class="column1">
                 <p class="main-paragraph">
-                    Elementary<br /><br />
+                    Elementary School<br /><br />
                     Junior High School<br /><br />
                     Senior High School<br /><br />
                     College<br /><br />
@@ -132,7 +132,7 @@
             </div>
             <div class="column2">
                 <p class="main-paragraph">
-                    : Rivera Village Elementary School<br /><br />
+                    : Silliman University - Elementary School<br /><br />
                     : Silliman University - Junior High School<br /><br />
                     : Silliman University - Senior High School<br /><br />
                     : Silliman University - College of Computer Studies<br /><br />
@@ -160,19 +160,15 @@
             <div class="column1">
                 <p class="main-paragraph">
                     Facebook<br /><br />
-                    X<br /><br />
                     Instagram<br /><br />
                     Discord<br /><br />
-                    Github<br /><br />
                 </p>
             </div>
             <div class="column2">
                 <p class="main-paragraph">
-                    : <a href="https://www.facebook.com/charlezwithz" class="link" target="_blank">Charlez Yuan Venenoso</a><br /><br />
-                    : <a href="https://x.com/yuanvnnoso" class="link" target="_blank">charlez</a><br /><br />
-                    : <a href="https://www.instagram.com/charlezyuan/#" class="link" target="_blank">Charlez Yuan Venenoso</a><br /><br />
-                    : <a href="https://discordapp.com/users/548500405139537930" class="link" target="_blank">pew5628</a><br /><br />
-                    : <a href="https://github.com/AetherEncoder" class="link" target="_blank">AetherEncoder</a><br /><br />
+                    : <a href="https://www.facebook.com/daj.sonjaco" class="link" target="_blank">Darius Judd Sonjaco</a><br /><br />
+                    : <a href="https://www.instagram.com/charlezyuan/#" class="link" target="_blank">Darius Judd Sonjaco</a><br /><br />
+                    : <a href="https://discordapp.com/users/978103747009998938" class="link" target="_blank">daj8796</a><br /><br />
                 </p>
             </div>
             <a class="anchor" name="Parent">&nbsp;</a>
@@ -192,12 +188,12 @@
             </div>
             <div class="column-quarter">
                 <p class="main-paragraph">
-                    : Lilibeth Cedeño <br /><br />
-                    : 42 <br /><br />
-                    : February 11, 1982 <br /><br />
+                    : Flordeline Cleope <br /><br />
+                    : 51 <br /><br />
+                    : April 30, 1973 <br /><br />
                     : College Graduate <br /><br />
-                    : Unemployed <br /><br />
-                    : Unmarried <br /><br />
+                    : Teacher <br /><br />
+                    : Married <br /><br />
                 </p>
             </div>
             <div class="column-quarter">
@@ -212,12 +208,12 @@
             </div>
             <div class="column-quarter">
                 <p class="main-paragraph">
-                    : Jonathan Venenoso <br /><br />
-                    : 43 <br /><br />
-                    : April 2, 1981 <br /><br />
+                    : Saludario Sonjaco <br /><br />
+                    : 57 <br /><br />
+                    : April 4, 1979 <br /><br />
                     : College Graduate <br /><br />
-                    : Unemployed <br /><br />
-                    : Unmarried <br /><br />
+                    : LGU <br /><br />
+                    : Married <br /><br />
                 </p>
             </div>
             
@@ -228,37 +224,28 @@
             <div class="column-third">
                 <p class="main-paragraph">
                     <span class="bold">Hobbies</span><br /><br />
-                    Reading Light Novels <br /><br />
                     Reading Mangas <br /><br />
                     Reading Manhwas <br /><br />
                     Watching Animes <br /><br />
-                    Programming <br /><br />
                     Playing Roblox <br /><br />
-                    Typing <br /><br />
-                    Sleeping <br /><br />
+                    Playing Mobile Games <br /><br />
+                    Working out <br /><br />
                 </p>
             </div>
 
             <div class="column-third">
                 <p class="main-paragraph">
                     <span class="bold">Tallent & Skills</span><br /><br />
-                    100+ Words Per Minute Typing Speed <br /><br />
-                    C++ Programming <br /><br />
-                    C Programming <br /><br />
-                    Python Programming <br /><br />
-                    Pygame <br /><br />
+                    Online Games <br /><br />
                 </p>
             </div>
 
             <div class="column-third">
                 <p class="main-paragraph">
                     <span class="bold">Interests</span><br /><br />
-                    Web Development <br /><br />
-                    Learning to Play the Piano <br /><br />
-                    Learning more about Music <br /><br />
-                    Learning Chemistry <br /><br />
                     Learning Math <br /><br />
                     Soccer <br /><br />
+                    Cars and Motorcycles <br /><br />
                 </p>
             </div>
 
