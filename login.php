@@ -63,7 +63,7 @@
     <!-- Container for the Div -->
     <div class="container">
       <div class="login-main">
-        <form name="myform" class="login" method="POST" action="home.php">
+        <form name="myform" class="login" method="POST" action="homepage.php">
           <div class="signup-success-main">
 
             <!-- Values -->

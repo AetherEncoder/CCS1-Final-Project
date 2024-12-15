@@ -62,7 +62,7 @@
 
     <!-- Container for the Div -->
     <div class="home-main">
-      <form name="myform" class="login" method="POST" action="home.php">
+      <form name="myform" class="login" method="POST" action="homepage.php">
         <!-- Values -->
         <input type="hidden" name="firstName" value="<?php echo $firstName; ?>">
         <input type="hidden" name="lastName" value="<?php echo $lastName; ?>">
