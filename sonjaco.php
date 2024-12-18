@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CCS Website - Developer Information</title>
+    <title>Sonjaco - BlueLock Program</title>
     <!-- Include icon and stylesheet -->
     <link id="icon" rel = "icon" type = "image/x-icon" href = "images/CCS_logo.png">
     <link id="theme" rel = "stylesheet" type = "text/css" href = "src/egoist.css">

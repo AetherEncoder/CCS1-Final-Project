@@ -22,27 +22,6 @@ div{
     float: left;
 }
 
-div.banner{
-    height: 160px;
-    width: 100%;
-    background-color: white; 
-}
-
-div.banner-container{
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    height: 160px;
-    background-image: url('images/egoistTheme/CCS_Banner.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-/* div.fix{
-    position: fixed;
-    width: 100%;
-} */
-
 div.navigation-bar{
     height: 50px;
     width: 100%;
