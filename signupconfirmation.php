@@ -58,11 +58,6 @@
 
   <body onload="position()">
 
-    <!-- Heading Banner -->
-    <div class="main-heading-div">
-      <img src="src/images/main_banner.png" alt="Main Banner" class="main-banner">
-    </div>
-
     <!-- Sidebar to center the main div -->
     <div class="side-bar"></div>
 
@@ -217,7 +212,7 @@
           <hr class="login" />
 
           <div class="login-form submit">
-            <a href="index.php" class="submit">Go Back</a>
+            <a href="signup.php" class="submit">Go Back</a>
             <input type="submit" value="Confirm" class="submit">
           </div>
         </form>
@@ -227,21 +222,6 @@
 
     <!-- Sidebar to center the main div -->
     <div class="side-bar"></div>
-
-    <!-- Marquee Disclaimer -->
-    <div class="disclaimer">
-      <marquee class="disclaimer">
-        This website is a student project created for academic purposes as part of the CCS1 course. It is not intended for actual use, and any data entered here will not be stored or used beyond this project demonstration.
-      </marquee>
-    </div>
-
-    <!-- Copy Right Section -->
-    <div class="copyright">
-      <hr class="copyright" />
-      <p class="copyright"> Copyright (2024) &copy; </p>
-      <hr class="copyright" />
-    </div>
-
     <script src="src/app.js"></script>
   </body>
 </html>

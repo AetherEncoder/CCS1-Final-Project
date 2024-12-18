@@ -125,6 +125,7 @@ input.submit:active, a.submit:active{
 
 div.submit{
   width: 80%;
+  
 }
 
 p.error{
@@ -305,7 +306,9 @@ div.disclaimer{
 
 marquee.disclaimer{
   color: white;
-  font-size: 30px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 div.student-containers{
@@ -349,8 +352,8 @@ div.home-body-heading{
 }
 
 div.short{
-  height: 700px;
-  background-size: cover;
+  height: 900px;
+  background-size: contain;
   background-image: url('images/shortsidebanner.png');
 }
 

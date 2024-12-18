@@ -78,6 +78,7 @@ function verifySignUp(form){
 
 var attempts = 3;
 function login(form){
+  
 
   form.submit.type = "button";
 
@@ -97,11 +98,9 @@ function login(form){
     form.submit.disabled = true;
   }
   else{
-    document.getElementById('error').innerHTML = "Invalid username or password you have " + (attempts-1) + " attempts left";
     attempts--;
+    document.getElementById('error').innerHTML = "Invalid username or password you have " + attempts + " attempts left";
   }
-
-  
 }
 
 function travel(form, destination){

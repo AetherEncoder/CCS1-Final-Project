@@ -95,13 +95,22 @@
             <input type="hidden" name="confirmPassword" value="<?php echo $confirmPassword; ?>">
 
             <!-- Main Heading -->
-            <h1 class="signup-success-main-heading">BLUE LOCK LOGIN PAGE</h1>
+            <div class="logo-sidebar"></div>
+            <div class="logo-container">
+              <img src="src/images/bluelock_logo.png" class="bluelock-logo" />
+            </div>
+            <div class="logo-sidebar"></div>
+
+            <div class="signup-main-heading">
+              <h1 class="center-text">CONFIRM YOUR DETAILS</h1>
+            </div>
             <hr class="login" />
             <h2 class="signup-success-main-heading">PLEASE ENTER YOUR CREDENTIALS</h2>
             <br />
             <br />
 
             <!-- Update the login form structure -->
+            <!-- Username -->
             <div class="login-sidebar"></div>
             <div class="login-mainbar">
               <div class="login-caption">
@@ -113,7 +122,11 @@
               </div>
             </div>
             <div class="login-sidebar"></div>
+
+            <!-- Adds Vertical Space Between Username and Password -->
             <div class="login-fullbar"></div>
+
+            <!-- Password -->
             <div class="login-sidebar"></div>
             <div class="login-mainbar">
               <div class="login-caption">
@@ -128,17 +141,15 @@
 
             <hr class="login" />
 
-            <!-- Proceed to Log In -->
+            <!-- Erorr Message -->
             <p id="error" class="error center-text"><br /></p>
 
+            <!-- Container for submit button -->
             <div class="login-form-submit">
+              <!-- Submit button to submit username and password for validation -->
               <input class="proceed-to-login submit" type="button" value="LOG IN" name="submit" onclick="login(this.form);">
             </div>
-
-            <div class="signup-sucess-side-bar"></div>
-
           </div>
-
         </form>
       </div>
     </div>
