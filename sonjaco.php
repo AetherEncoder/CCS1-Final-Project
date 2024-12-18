@@ -66,194 +66,236 @@
 
     <!-- Main Content of the webpage -->
     <div class="content">
-      <div class="main-content">
+      	<div class="main-content">
 
-      <h1 class="main-heading">Developer Information</h1>
-      <div class="main-nav-bar">
-        <div><a class="main-nav-link" href="#Personal">Personal Information</a></div>
-        <div class="nav-space">|</div>
-        <div><a class="main-nav-link" href="#Educational">Educational Background</a></div>
-        <div class="nav-space">|</div>
-        <div><a class="main-nav-link" href="#Social">Social Media</a></div>
-        <div class="nav-space">|</div>
-        <div><a class="main-nav-link" href="#Parent">Parent's Information</a></div>
-        <div class="nav-space">|</div>
-        <div><a class="main-nav-link" href="#Hobbies">Hobbies Talents Skills and Interests</a></div>
-      </div>
-      <hr class="main-hr" />
+				<!-- Heading -->
+      	<h1 class="main-heading">Developer Information</h1>
 
-      <a class="anchor" name="Personal">&nbsp;</a>
-      <h2 class="main-subheading">Personal Information</h2>
-      <hr class="main-hr" />
+				<!-- Navigation Bar -->
+      	<div class="main-nav-bar">
+      	  <div><a class="main-nav-link" href="#Personal">Personal Information</a></div>
+      	  <div class="nav-space">|</div>
+      	  <div><a class="main-nav-link" href="#Educational">Educational Background</a></div>
+      	  <div class="nav-space">|</div>
+      	  <div><a class="main-nav-link" href="#Social">Social Media</a></div>
+      	  <div class="nav-space">|</div>
+      	  <div><a class="main-nav-link" href="#Parent">Parent's Information</a></div>
+      	  <div class="nav-space">|</div>
+      	  <div><a class="main-nav-link" href="#Hobbies">Hobbies Talents Skills and Interests</a></div>
+      	</div>
+      	<hr class="main-hr" />
 
-      <div class="column1">
-        <p class="main-paragraph">
-          Name<br /><br />
-          Mobile No.<br /><br />
-          Gender<br /><br />
-          Marital Status<br /><br />
-          Nationality<br /><br />
-          Address<br /><br />
-        </p>
-      </div>
-      <div class="column2">
-        <p class="main-paragraph">
-          : Darius Judd C. Sonjaco<br /><br />
-          : 0962-493-0503<br /><br />
-          : Male<br /><br />
-          : Single<br /><br />
-          : Filipino<br /><br />
-          : Bong-ao Valencia<br /><br />
-        </p>
-      </div>
-      <div class="column1">
-        <p class="main-paragraph">
-          Father's Name<br /><br />
-          Email Address<br /><br />
-          Date of Birth<br /><br />
-          Religion<br /><br />
-          Languages<br /><br />
-        </p>
-      </div>
-      <div class="column2">
-        <p class="main-paragraph">
-          : Saludario Sonjaco<br /><br />
-          : <a class="link" href="mailto:dariuscsonjaco@su.edu.ph" target="_blank">dariuscsonjaco@su.edu.ph</a> <br /><br />
-          : May 31, 2005<br /><br />
-          : Roman Catholic<br>
-          : English, Filipino, Cebuano<br /><br />
-        </p>
-      </div>
-      <a class="anchor" name="Educational">&nbsp;</a>
-      <h2 class="main-subheading">Educational Background</h2>
-      <hr class="main-hr" />
-      <div class="column1">
-        <p class="main-paragraph">
-          Elementary School<br /><br />
-          Junior High School<br /><br />
-          Senior High School<br /><br />
-          College<br /><br />
-        </p>
-      </div>
-      <div class="column2">
-        <p class="main-paragraph">
-          : Silliman University - Elementary School<br /><br />
-          : Silliman University - Junior High School<br /><br />
-          : Silliman University - Senior High School<br /><br />
-          : Silliman University - College of Computer Studies<br /><br />
-        </p>
-      </div>
-      <div class="column1">
-        <p class="main-paragraph">
-          Year Graduated<br /><br />
-          Year Graduated<br /><br />
-          Year Graduated<br /><br />
-          Course<br /><br />
-        </p>
-      </div>
-      <div class="column2">
-        <p class="main-paragraph">
-          : 2017<br /><br />
-          : 2022<br /><br />
-          : 2024<br /><br />
-          : Bachelor of Science in Computer Science<br /><br />
-        </p>
-      </div>
-      <a class="anchor" name="Social">&nbsp;</a>
-      <h2 class="main-subheading">Social Media Accounts</h2>
-      <hr class="main-hr" />
-      <div class="column1">
-        <p class="main-paragraph">
-          Facebook<br /><br />
-          Instagram<br /><br />
-          Discord<br /><br />
-        </p>
-      </div>
-      <div class="column2">
-        <p class="main-paragraph">
-          : <a href="https://www.facebook.com/daj.sonjaco" class="link" target="_blank">Darius Judd Sonjaco</a><br /><br />
-          : <a href="https://www.instagram.com/charlezyuan/#" class="link" target="_blank">Darius Judd Sonjaco</a><br /><br />
-          : <a href="https://discordapp.com/users/978103747009998938" class="link" target="_blank">daj8796</a><br /><br />
-        </p>
-      </div>
-      <a class="anchor" name="Parent">&nbsp;</a>
-      <h2 class="main-subheading">Parent's Information</h2>
-      <hr class="main-hr" />
-      <div class="column-half">Mother</div>
-      <div class="column-half">Father</div>
-      <div class="column-quarter">
-        <p class="main-paragraph">
-          Name <br /><br />
-          Age <br /><br />
-          Birthday <br /><br />
-          Educational Background <br /><br />
-          Occupation <br /><br />
-          Marital Status <br /><br />
-        </p>
-      </div>
-      <div class="column-quarter">
-        <p class="main-paragraph">
-          : Flordeline Cleope <br /><br />
-          : 51 <br /><br />
-          : April 30, 1973 <br /><br />
-          : College Graduate <br /><br />
-          : Teacher <br /><br />
-          : Married <br /><br />
-        </p>
-      </div>
-      <div class="column-quarter">
-        <p class="main-paragraph">
-          Name <br /><br />
-          Age <br /><br />
-          Birthday <br /><br />
-          Educational Background <br /><br />
-          Occupation <br /><br />
-          Marital Status <br /><br />
-        </p>
-      </div>
-      <div class="column-quarter">
-        <p class="main-paragraph">
-          : Saludario Sonjaco <br /><br />
-          : 57 <br /><br />
-          : April 4, 1979 <br /><br />
-          : College Graduate <br /><br />
-          : LGU <br /><br />
-          : Married <br /><br />
-        </p>
-      </div>
-      
-      <a class="anchor" name="Hobbies">&nbsp;</a>
-      <h2 class="main-subheading">Hobbies Talents Skills and Interests</h2>
-      <hr class="main-hr" />
+				<!-- Personal Information -->
+      	<a class="anchor" name="Personal">&nbsp;</a>
+      	<h2 class="main-subheading">Personal Information</h2>
+      	<hr class="main-hr" />
 
-      <div class="column-third">
-        <p class="main-paragraph">
-          <span class="bold">Hobbies</span><br /><br />
-          Reading Mangas <br /><br />
-          Reading Manhwas <br /><br />
-          Watching Animes <br /><br />
-          Playing Roblox <br /><br />
-          Playing Mobile Games <br /><br />
-          Working out <br /><br />
-        </p>
-      </div>
+				<!-- Personal Information Caption -->
+      	<div class="column1">
+      	  <p class="main-paragraph">
+      	    Name<br /><br />
+      	    Mobile No.<br /><br />
+      	    Gender<br /><br />
+      	    Marital Status<br /><br />
+      	    Nationality<br /><br />
+      	    Address<br /><br />
+      	  </p>
+      	</div>
 
-      <div class="column-third">
-        <p class="main-paragraph">
-          <span class="bold">Tallent & Skills</span><br /><br />
-          Online Games <br /><br />
-        </p>
-      </div>
+				<!-- Personal Information -->
+      	<div class="column2">
+      	  <p class="main-paragraph">
+      	    : Darius Judd C. Sonjaco<br /><br />
+      	    : 0962-493-0503<br /><br />
+      	    : Male<br /><br />
+      	    : Single<br /><br />
+      	    : Filipino<br /><br />
+      	    : Bong-ao Valencia<br /><br />
+      	  </p>
+      	</div>
 
-      <div class="column-third">
-        <p class="main-paragraph">
-          <span class="bold">Interests</span><br /><br />
-          Learning Math <br /><br />
-          Soccer <br /><br />
-          Cars and Motorcycles <br /><br />
-        </p>
-      </div>
+				<!-- Personal Infromation Caption -->
+      	<div class="column1">
+      	  <p class="main-paragraph">
+      	    Father's Name<br /><br />
+      	    Email Address<br /><br />
+      	    Date of Birth<br /><br />
+      	    Religion<br /><br />
+      	    Languages<br /><br />
+      	  </p>
+      	</div>
 
+				<!-- Personal Information -->
+      	<div class="column2">
+      	  <p class="main-paragraph">
+      	    : Saludario Sonjaco<br /><br />
+      	    : <a class="link" href="mailto:dariuscsonjaco@su.edu.ph" target="_blank">dariuscsonjaco@su.edu.ph</a> <br /><br />
+      	    : May 31, 2005<br /><br />
+      	    : Roman Catholic<br>
+      	    : English, Filipino, Cebuano<br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Educational Background -->
+      	<a class="anchor" name="Educational">&nbsp;</a>
+      	<h2 class="main-subheading">Educational Background</h2>
+      	<hr class="main-hr" />
+
+				<!-- Educational Background Caption -->
+      	<div class="column1">
+      	  <p class="main-paragraph">
+      	    Elementary School<br /><br />
+      	    Junior High School<br /><br />
+      	    Senior High School<br /><br />
+      	    College<br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Educational Background -->
+      	<div class="column2">
+      	  <p class="main-paragraph">
+      	    : Silliman University - Elementary School<br /><br />
+      	    : Silliman University - Junior High School<br /><br />
+      	    : Silliman University - Senior High School<br /><br />
+      	    : Silliman University - College of Computer Studies<br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Educational Background Caption -->
+      	<div class="column1">
+      	  <p class="main-paragraph">
+      	    Year Graduated<br /><br />
+      	    Year Graduated<br /><br />
+      	    Year Graduated<br /><br />
+      	    Course<br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Educational Background -->
+      	<div class="column2">
+      	  <p class="main-paragraph">
+      	    : 2017<br /><br />
+      	    : 2022<br /><br />
+      	    : 2024<br /><br />
+      	    : Bachelor of Science in Computer Science<br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Social Media Accounts -->
+      	<a class="anchor" name="Social">&nbsp;</a>
+      	<h2 class="main-subheading">Social Media Accounts</h2>
+      	<hr class="main-hr" />
+
+				<!-- Social Media Caption -->
+      	<div class="column1">
+      	  <p class="main-paragraph">
+      	    Facebook<br /><br />
+      	    Instagram<br /><br />
+      	    Discord<br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Social Media -->
+      	<div class="column2">
+      	  <p class="main-paragraph">
+      	    : <a href="https://www.facebook.com/daj.sonjaco" class="link" target="_blank">Darius Judd Sonjaco</a><br /><br />
+      	    : <a href="https://www.instagram.com/charlezyuan/#" class="link" target="_blank">Darius Judd Sonjaco</a><br /><br />
+      	    : <a href="https://discordapp.com/users/978103747009998938" class="link" target="_blank">daj8796</a><br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Parent's Information -->
+      	<a class="anchor" name="Parent">&nbsp;</a>
+      	<h2 class="main-subheading">Parent's Information</h2>
+      	<hr class="main-hr" />
+
+				<!-- Parent's Information -->
+      	<div class="column-half">Mother</div>
+      	<div class="column-half">Father</div>
+
+				<!-- Parent's Information Caption -->
+      	<div class="column-quarter">
+      	  <p class="main-paragraph">
+      	    Name <br /><br />
+      	    Age <br /><br />
+      	    Birthday <br /><br />
+      	    Educational Background <br /><br />
+      	    Occupation <br /><br />
+      	    Marital Status <br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Parent's Information -->
+      	<div class="column-quarter">
+      	  <p class="main-paragraph">
+      	    : Flordeline Cleope <br /><br />
+      	    : 51 <br /><br />
+      	    : April 30, 1973 <br /><br />
+      	    : College Graduate <br /><br />
+      	    : Teacher <br /><br />
+      	    : Married <br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Parent's Information Caption -->
+      	<div class="column-quarter">
+      	  <p class="main-paragraph">
+      	    Name <br /><br />
+      	    Age <br /><br />
+      	    Birthday <br /><br />
+      	    Educational Background <br /><br />
+      	    Occupation <br /><br />
+      	    Marital Status <br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Parent's Information -->
+      	<div class="column-quarter">
+      	  <p class="main-paragraph">
+      	    : Saludario Sonjaco <br /><br />
+      	    : 57 <br /><br />
+      	    : April 4, 1979 <br /><br />
+      	    : College Graduate <br /><br />
+      	    : LGU <br /><br />
+      	    : Married <br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Hobbies Talents Skills and Interests -->
+      	<a class="anchor" name="Hobbies">&nbsp;</a>
+      	<h2 class="main-subheading">Hobbies Talents Skills and Interests</h2>
+      	<hr class="main-hr" />
+
+				<!-- Hobbies -->
+      	<div class="column-third">
+      	  <p class="main-paragraph">
+      	    <span class="bold">Hobbies</span><br /><br />
+      	    Reading Mangas <br /><br />
+      	    Reading Manhwas <br /><br />
+      	    Watching Animes <br /><br />
+      	    Playing Roblox <br /><br />
+      	    Playing Mobile Games <br /><br />
+      	    Working out <br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Talents -->
+      	<div class="column-third">
+      	  <p class="main-paragraph">
+      	    <span class="bold">Tallent & Skills</span><br /><br />
+      	    Online Games <br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Interests -->
+      	<div class="column-third">
+      	  <p class="main-paragraph">
+      	    <span class="bold">Interests</span><br /><br />
+      	    Learning Math <br /><br />
+      	    Soccer <br /><br />
+      	    Cars and Motorcycles <br /><br />
+      	  </p>
+      	</div>
       </div>
       
       <!-- Button to go back to home page -->

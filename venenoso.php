@@ -65,246 +65,245 @@
     <div class="content">
       <div class="main-content">
 
-			<!-- Main Heading -->
-      <h1 class="main-heading">Developer Information</h1>
+				<!-- Main Heading -->
+      	<h1 class="main-heading">Developer Information</h1>
 
-			<!-- Navigation bar -->
-      <div class="main-nav-bar">
-        <div><a class="main-nav-link" href="#Personal">Personal Information</a></div>
-        <div class="nav-space">|</div>
-        <div><a class="main-nav-link" href="#Educational">Educational Background</a></div>
-        <div class="nav-space">|</div>
-        <div><a class="main-nav-link" href="#Social">Social Media</a></div>
-        <div class="nav-space">|</div>
-        <div><a class="main-nav-link" href="#Parent">Parent's Information</a></div>
-        <div class="nav-space">|</div>
-        <div><a class="main-nav-link" href="#Hobbies">Hobbies Talents Skills and Interests</a></div>
-      </div>
-      <hr class="main-hr" />
+				<!-- Navigation bar -->
+      	<div class="main-nav-bar">
+      	  <div><a class="main-nav-link" href="#Personal">Personal Information</a></div>
+      	  <div class="nav-space">|</div>
+      	  <div><a class="main-nav-link" href="#Educational">Educational Background</a></div>
+      	  <div class="nav-space">|</div>
+      	  <div><a class="main-nav-link" href="#Social">Social Media</a></div>
+      	  <div class="nav-space">|</div>
+      	  <div><a class="main-nav-link" href="#Parent">Parent's Information</a></div>
+      	  <div class="nav-space">|</div>
+      	  <div><a class="main-nav-link" href="#Hobbies">Hobbies Talents Skills and Interests</a></div>
+      	</div>
+      	<hr class="main-hr" />
 
-			<!-- Navigate to personal information  -->
-      <a class="anchor" name="Personal">&nbsp;</a>
-      <h2 class="main-subheading">Personal Information</h2>
-      <hr class="main-hr" />
+				<!-- Navigate to personal information  -->
+      	<a class="anchor" name="Personal">&nbsp;</a>
+      	<h2 class="main-subheading">Personal Information</h2>
+      	<hr class="main-hr" />
 
-			<!-- Personal Information Caption -->
-      <div class="column1">
-        <p class="main-paragraph">
-          Name<br /><br />
-          Mobile No.<br /><br />
-          Gender<br /><br />
-          Marital Status<br /><br />
-          Nationality<br /><br />
-          Address<br /><br />
-        </p>
-      </div>
+				<!-- Personal Information Caption -->
+      	<div class="column1">
+      	  <p class="main-paragraph">
+      	    Name<br /><br />
+      	    Mobile No.<br /><br />
+      	    Gender<br /><br />
+      	    Marital Status<br /><br />
+      	    Nationality<br /><br />
+      	    Address<br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Personal Information -->
-      <div class="column2">
-        <p class="main-paragraph">
-          : Charlez  Yuan Venenoso<br /><br />
-          : 0997-986-9084<br /><br />
-          : Male<br /><br />
-          : Single<br /><br />
-          : Filipino<br /><br />
-          : #210 San Antonio St. Poblacion Sibulan<br /><br />
-        </p>
-      </div>
-			
-			<!-- Personal Information Caption -->
-      <div class="column1">
-        <p class="main-paragraph">
-          Father's Name<br /><br />
-          Email Address<br /><br />
-          Date of Birth<br /><br />
-          Religion<br /><br />
-          Languages<br /><br />
-        </p>
-      </div>
+				<!-- Personal Information -->
+      	<div class="column2">
+      	  <p class="main-paragraph">
+      	    : Charlez  Yuan Venenoso<br /><br />
+      	    : 0997-986-9084<br /><br />
+      	    : Male<br /><br />
+      	    : Single<br /><br />
+      	    : Filipino<br /><br />
+      	    : #210 San Antonio St. Poblacion Sibulan<br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Personal Information -->
-      <div class="column2">
-        <p class="main-paragraph">
-          : Jonathan Venenoso<br /><br />
-          : <a class="link" href="mailto:charlezcvenenoso@su.edu.ph" target="_blank">charlezcvenenoso@su.edu.ph</a> <br /><br />
-          : January 27, 2006<br /><br />
-          : Roman Catholic<br>
-          : English, Filipino, Cebuano<br /><br />
-        </p>
-      </div>
+				<!-- Personal Information Caption -->
+      	<div class="column1">
+      	  <p class="main-paragraph">
+      	    Father's Name<br /><br />
+      	    Email Address<br /><br />
+      	    Date of Birth<br /><br />
+      	    Religion<br /><br />
+      	    Languages<br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Navigate to Educational Background -->
-      <a class="anchor" name="Educational">&nbsp;</a>
+				<!-- Personal Information -->
+      	<div class="column2">
+      	  <p class="main-paragraph">
+      	    : Jonathan Venenoso<br /><br />
+      	    : <a class="link" href="mailto:charlezcvenenoso@su.edu.ph" target="_blank">charlezcvenenoso@su.edu.ph</a> <br /><br />
+      	    : January 27, 2006<br /><br />
+      	    : Roman Catholic<br>
+      	    : English, Filipino, Cebuano<br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Educational Background Caption -->
-      <h2 class="main-subheading">Educational Background</h2>
-      <hr class="main-hr" />
-      <div class="column1">
-        <p class="main-paragraph">
-          Elementary<br /><br />
-          Junior High School<br /><br />
-          Senior High School<br /><br />
-          College<br /><br />
-        </p>
-      </div>
+				<!-- Navigate to Educational Background -->
+      	<a class="anchor" name="Educational">&nbsp;</a>
 
-			<!-- Educational Background -->
-      <div class="column2">
-        <p class="main-paragraph">
-          : Rivera Village Elementary School<br /><br />
-          : Silliman University - Junior High School<br /><br />
-          : Silliman University - Senior High School<br /><br />
-          : Silliman University - College of Computer Studies<br /><br />
-        </p>
-      </div>
+				<!-- Educational Background Caption -->
+      	<h2 class="main-subheading">Educational Background</h2>
+      	<hr class="main-hr" />
+      	<div class="column1">
+      	  <p class="main-paragraph">
+      	    Elementary<br /><br />
+      	    Junior High School<br /><br />
+      	    Senior High School<br /><br />
+      	    College<br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Educational Background Caption -->
-      <div class="column1">
-        <p class="main-paragraph">
-          Year Graduated<br /><br />
-          Year Graduated<br /><br />
-          Year Graduated<br /><br />
-          Course<br /><br />
-        </p>
-      </div>
+				<!-- Educational Background -->
+      	<div class="column2">
+      	  <p class="main-paragraph">
+      	    : Rivera Village Elementary School<br /><br />
+      	    : Silliman University - Junior High School<br /><br />
+      	    : Silliman University - Senior High School<br /><br />
+      	    : Silliman University - College of Computer Studies<br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Educational Background -->
-      <div class="column2">
-        <p class="main-paragraph">
-          : 2017<br /><br />
-          : 2022<br /><br />
-          : 2024<br /><br />
-          : Bachelor of Science in Computer Science<br /><br />
-        </p>
-      </div>
+				<!-- Educational Background Caption -->
+      	<div class="column1">
+      	  <p class="main-paragraph">
+      	    Year Graduated<br /><br />
+      	    Year Graduated<br /><br />
+      	    Year Graduated<br /><br />
+      	    Course<br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Navigate to Social Media -->
-      <a class="anchor" name="Social">&nbsp;</a>
+				<!-- Educational Background -->
+      	<div class="column2">
+      	  <p class="main-paragraph">
+      	    : 2017<br /><br />
+      	    : 2022<br /><br />
+      	    : 2024<br /><br />
+      	    : Bachelor of Science in Computer Science<br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Social Media Caption -->
-      <h2 class="main-subheading">Social Media Accounts</h2>
-      <hr class="main-hr" />
-      <div class="column1">
-        <p class="main-paragraph">
-          Facebook<br /><br />
-          X<br /><br />
-          Instagram<br /><br />
-          Discord<br /><br />
-          Github<br /><br />
-        </p>
-      </div>
+				<!-- Navigate to Social Media -->
+      	<a class="anchor" name="Social">&nbsp;</a>
 
-			<!-- Social Media -->
-      <div class="column2">
-        <p class="main-paragraph">
-          : <a href="https://www.facebook.com/charlezwithz" class="link" target="_blank">Charlez Yuan Venenoso</a><br /><br />
-          : <a href="https://x.com/yuanvnnoso" class="link" target="_blank">charlez</a><br /><br />
-          : <a href="https://www.instagram.com/charlezyuan/#" class="link" target="_blank">Charlez Yuan Venenoso</a><br /><br />
-          : <a href="https://discordapp.com/users/548500405139537930" class="link" target="_blank">pew5628</a><br /><br />
-          : <a href="https://github.com/AetherEncoder" class="link" target="_blank">AetherEncoder</a><br /><br />
-        </p>
-      </div>
+				<!-- Social Media Caption -->
+      	<h2 class="main-subheading">Social Media Accounts</h2>
+      	<hr class="main-hr" />
+      	<div class="column1">
+      	  <p class="main-paragraph">
+      	    Facebook<br /><br />
+      	    X<br /><br />
+      	    Instagram<br /><br />
+      	    Discord<br /><br />
+      	    Github<br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Navigate to Parent's Information -->
-      <a class="anchor" name="Parent">&nbsp;</a>
+				<!-- Social Media -->
+      	<div class="column2">
+      	  <p class="main-paragraph">
+      	    : <a href="https://www.facebook.com/charlezwithz" class="link" target="_blank">Charlez Yuan Venenoso</a><br /><br />
+      	    : <a href="https://x.com/yuanvnnoso" class="link" target="_blank">charlez</a><br /><br />
+      	    : <a href="https://www.instagram.com/charlezyuan/#" class="link" target="_blank">Charlez Yuan Venenoso</a><br /><br />
+      	    : <a href="https://discordapp.com/users/548500405139537930" class="link" target="_blank">pew5628</a><br /><br />
+      	    : <a href="https://github.com/AetherEncoder" class="link" target="_blank">AetherEncoder</a><br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Parent's Information Caption -->
-      <h2 class="main-subheading">Parent's Information</h2>
-      <hr class="main-hr" />
-      <div class="column-half">Mother</div>
-      <div class="column-half">Father</div>
-      <div class="column-quarter">
-        <p class="main-paragraph">
-          Name <br /><br />
-          Age <br /><br />
-          Birthday <br /><br />
-          Educational Background <br /><br />
-          Occupation <br /><br />
-          Marital Status <br /><br />
-        </p>
-      </div>
+				<!-- Navigate to Parent's Information -->
+      	<a class="anchor" name="Parent">&nbsp;</a>
 
-			<!-- Parent's Information -->
-      <div class="column-quarter">
-        <p class="main-paragraph">
-          : Lilibeth Cedeño <br /><br />
-          : 42 <br /><br />
-          : February 11, 1982 <br /><br />
-          : College Graduate <br /><br />
-          : Unemployed <br /><br />
-          : Unmarried <br /><br />
-        </p>
-      </div>
+				<!-- Parent's Information Caption -->
+      	<h2 class="main-subheading">Parent's Information</h2>
+      	<hr class="main-hr" />
+      	<div class="column-half">Mother</div>
+      	<div class="column-half">Father</div>
+      	<div class="column-quarter">
+      	  <p class="main-paragraph">
+      	    Name <br /><br />
+      	    Age <br /><br />
+      	    Birthday <br /><br />
+      	    Educational Background <br /><br />
+      	    Occupation <br /><br />
+      	    Marital Status <br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Parent's Information Caption -->
-      <div class="column-quarter">
-        <p class="main-paragraph">
-          Name <br /><br />
-          Age <br /><br />
-          Birthday <br /><br />
-          Educational Background <br /><br />
-          Occupation <br /><br />
-          Marital Status <br /><br />
-        </p>
-      </div>
+				<!-- Parent's Information -->
+      	<div class="column-quarter">
+      	  <p class="main-paragraph">
+      	    : Lilibeth Cedeño <br /><br />
+      	    : 42 <br /><br />
+      	    : February 11, 1982 <br /><br />
+      	    : College Graduate <br /><br />
+      	    : Unemployed <br /><br />
+      	    : Unmarried <br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Parent's Information -->
-      <div class="column-quarter">
-        <p class="main-paragraph">
-          : Jonathan Venenoso <br /><br />
-          : 43 <br /><br />
-          : April 2, 1981 <br /><br />
-          : College Graduate <br /><br />
-          : Unemployed <br /><br />
-          : Unmarried <br /><br />
-        </p>
-      </div>
-			
-			<!-- Navigate to Hobbies Talents Skills and Interests -->
-      <a class="anchor" name="Hobbies">&nbsp;</a>
-      <h2 class="main-subheading">Hobbies Talents Skills and Interests</h2>
-      <hr class="main-hr" />
+				<!-- Parent's Information Caption -->
+      	<div class="column-quarter">
+      	  <p class="main-paragraph">
+      	    Name <br /><br />
+      	    Age <br /><br />
+      	    Birthday <br /><br />
+      	    Educational Background <br /><br />
+      	    Occupation <br /><br />
+      	    Marital Status <br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Hobbies -->
-      <div class="column-third">
-        <p class="main-paragraph">
-          <span class="bold">Hobbies</span><br /><br />
-          Reading Light Novels <br /><br />
-          Reading Mangas <br /><br />
-          Reading Manhwas <br /><br />
-          Watching Animes <br /><br />
-          Programming <br /><br />
-          Playing Roblox <br /><br />
-          Typing <br /><br />
-          Sleeping <br /><br />
-        </p>
-      </div>
+				<!-- Parent's Information -->
+      	<div class="column-quarter">
+      	  <p class="main-paragraph">
+      	    : Jonathan Venenoso <br /><br />
+      	    : 43 <br /><br />
+      	    : April 2, 1981 <br /><br />
+      	    : College Graduate <br /><br />
+      	    : Unemployed <br /><br />
+      	    : Unmarried <br /><br />
+      	  </p>
+      	</div>
 
-			<!-- Talents -->
-      <div class="column-third">
-        <p class="main-paragraph">
-          <span class="bold">Tallent & Skills</span><br /><br />
-          100+ Words Per Minute Typing Speed <br /><br />
-          C++ Programming <br /><br />
-          C Programming <br /><br />
-          Python Programming <br /><br />
-          Pygame <br /><br />
-        </p>
-      </div>
+				<!-- Navigate to Hobbies Talents Skills and Interests -->
+      	<a class="anchor" name="Hobbies">&nbsp;</a>
+      	<h2 class="main-subheading">Hobbies Talents Skills and Interests</h2>
+      	<hr class="main-hr" />
 
-			<!-- Interests -->
-      <div class="column-third">
-        <p class="main-paragraph">
-          <span class="bold">Interests</span><br /><br />
-          Web Development <br /><br />
-          Learning to Play the Piano <br /><br />
-          Learning more about Music <br /><br />
-          Learning Chemistry <br /><br />
-          Learning Math <br /><br />
-          Soccer <br /><br />
-        </p>
-      </div>
+				<!-- Hobbies -->
+      	<div class="column-third">
+      	  <p class="main-paragraph">
+      	    <span class="bold">Hobbies</span><br /><br />
+      	    Reading Light Novels <br /><br />
+      	    Reading Mangas <br /><br />
+      	    Reading Manhwas <br /><br />
+      	    Watching Animes <br /><br />
+      	    Programming <br /><br />
+      	    Playing Roblox <br /><br />
+      	    Typing <br /><br />
+      	    Sleeping <br /><br />
+      	  </p>
+      	</div>
 
+				<!-- Talents -->
+      	<div class="column-third">
+      	  <p class="main-paragraph">
+      	    <span class="bold">Tallent & Skills</span><br /><br />
+      	    100+ Words Per Minute Typing Speed <br /><br />
+      	    C++ Programming <br /><br />
+      	    C Programming <br /><br />
+      	    Python Programming <br /><br />
+      	    Pygame <br /><br />
+      	  </p>
+      	</div>
+
+				<!-- Interests -->
+      	<div class="column-third">
+      	  <p class="main-paragraph">
+      	    <span class="bold">Interests</span><br /><br />
+      	    Web Development <br /><br />
+      	    Learning to Play the Piano <br /><br />
+      	    Learning more about Music <br /><br />
+      	    Learning Chemistry <br /><br />
+      	    Learning Math <br /><br />
+      	    Soccer <br /><br />
+      	  </p>
+      	</div>
       </div>
 
 			<!-- Button to go back to home page -->

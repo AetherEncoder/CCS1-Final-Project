@@ -85,7 +85,8 @@
 	      <h2 class="main-subheading">Personal Information</h2>
 	      <hr class="main-hr" />
 
-	      <div class="column1">
+				<!-- Personal Information Caption -->
+	      <div class="column1">	
 	        <p class="main-paragraph">
 	          Name<br /><br />
 	          Mobile No.<br /><br />
@@ -95,6 +96,8 @@
 	          Address<br /><br />
 	        </p>
 	      </div>
+
+				<!-- Personal Information -->
 	      <div class="column2">
 	        <p class="main-paragraph">
 	          : Kristian Daniel D. Ong<br /><br />
@@ -105,6 +108,8 @@
 	          : Daro, Dumaguete<br /><br />
 	        </p>
 	      </div>
+
+				<!-- Personal Information Caption -->
 	      <div class="column1">
 	        <p class="main-paragraph">
 	          Father's Name<br /><br />
@@ -114,6 +119,8 @@
 	          Languages<br /><br />
 	        </p>
 	      </div>
+
+				<!-- Personal Information -->
 	      <div class="column2">
 	        <p class="main-paragraph">
 	          : Oliver E. Ong<br /><br />
@@ -123,9 +130,13 @@
 	          : English, Filipino, Cebuano, Chavacano<br /><br />
 	        </p>
 	      </div>
+
+				<!-- Educational Background -->
 	      <a class="anchor" name="Educational">&nbsp;</a>
 	      <h2 class="main-subheading">Educational Background</h2>
 	      <hr class="main-hr" />
+
+				<!-- Educational Background Caption -->
 	      <div class="column1">
 	        <p class="main-paragraph">
 	          Elementary<br /><br />
@@ -134,6 +145,8 @@
 	          College<br /><br />
 	        </p>
 	      </div>
+				
+				<!-- Educational Background -->
 	      <div class="column2">
 	        <p class="main-paragraph">
 	          : Zamboanga Chong Hua Elementary School<br /><br />
@@ -142,6 +155,8 @@
 	          : Silliman University - College of Computer Studies<br /><br />
 	        </p>
 	      </div>
+
+				<!-- Educational Background Caption -->
 	      <div class="column1">
 	        <p class="main-paragraph">
 	          Year Graduated<br /><br />
@@ -150,6 +165,8 @@
 	          Course<br /><br />
 	        </p>
 	      </div>
+
+				<!-- Educational Background -->
 	      <div class="column2">
 	        <p class="main-paragraph">
 	          : 2017<br /><br />
@@ -158,15 +175,21 @@
 	          : Bachelor of Science in Computer Science<br /><br />
 	        </p>
 	      </div>
+
+				<!-- Social Media Accounts -->
 	      <a class="anchor" name="Social">&nbsp;</a>
 	      <h2 class="main-subheading">Social Media Accounts</h2>
 	      <hr class="main-hr" />
+
+				<!-- Social Media Caption -->
 	      <div class="column1">
 	        <p class="main-paragraph">
 	          Facebook<br /><br />
 	          Instagram<br /><br />
 	        </p>
 	      </div>
+
+				<!-- Social Media -->
 	      <div class="column2">
 	        <p class="main-paragraph">
 	          : <a href="https://www.facebook.com/kristian.ong.39/" class="link" target="_blank">Kristian Ong</a><br /><br />
@@ -174,11 +197,17 @@
 
 	        </p>
 	      </div>
+
+				<!-- Parent's Information -->
 	      <a class="anchor" name="Parent">&nbsp;</a>
 	      <h2 class="main-subheading">Parent's Information</h2>
 	      <hr class="main-hr" />
+
+				<!-- Parent's Information -->
 	      <div class="column-half">Mother</div>
 	      <div class="column-half">Father</div>
+
+				<!-- Parent's Information Caption -->
 	      <div class="column-quarter">
 	        <p class="main-paragraph">
 	          Name <br /><br />
@@ -189,6 +218,8 @@
 	          Marital Status <br /><br />
 	        </p>
 	      </div>
+
+				<!-- Parent's Information -->
 	      <div class="column-quarter">
 	        <p class="main-paragraph">
 	          : Wilma D. Ong <br /><br />
@@ -199,6 +230,8 @@
 	          : Married <br /><br />
 	        </p>
 	      </div>
+
+				<!-- Parent's Information Caption -->
 	      <div class="column-quarter">
 	        <p class="main-paragraph">
 	          Name <br /><br />
@@ -209,6 +242,8 @@
 	          Marital Status <br /><br />
 	        </p>
 	      </div>
+
+				<!-- Parent's Information -->
 	      <div class="column-quarter">
 	        <p class="main-paragraph">
 	          : Oliver E. Ong <br /><br />
@@ -219,11 +254,13 @@
 	          : Married <br /><br />
 	        </p>
 	      </div>
-	
+
+				<!-- Hobbies, Talents, Skills, and Interests -->
 	      <a class="anchor" name="Hobbies">&nbsp;</a>
 	      <h2 class="main-subheading">Hobbies Talents Skills and Interests</h2>
 	      <hr class="main-hr" />
 
+				<!-- Hobbies -->
 	      <div class="column-third">
 	        <p class="main-paragraph">
 	          <span class="bold">Hobbies</span><br /><br />
@@ -237,6 +274,7 @@
 	        </p>
 	      </div>
 
+				<!-- Talents -->
 	      <div class="column-third">
 	        <p class="main-paragraph">
 	          <span class="bold">Tallent & Skills</span><br /><br />
@@ -246,7 +284,8 @@
 	          Pygame <br /><br />
 	        </p>
 	      </div>
-
+				
+				<!-- Interests -->
 	      <div class="column-third">
 	        <p class="main-paragraph">
 	          <span class="bold">Interests</span><br /><br />
